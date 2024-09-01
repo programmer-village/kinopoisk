@@ -1,0 +1,15 @@
+body {
+    background-color: #76a1cc;;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.text-center {
+    margin-top: 20px;
+}

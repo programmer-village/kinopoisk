@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f8ff; /* Светло-голубой цвет фона */
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Занять 100% высоты окна браузера */
+}
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    margin-left: 220px; /* Отступ от боковой панели */
+    padding: 20px;
+    flex: 1; /* Позволяет контенту занимать оставшееся пространство */
+}
+
+.footer {
+    background-color: #e0f7fa;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Заранее установлено */
+    margin-top: auto; /* Перемещает подвал вниз */
+}
