@@ -6,14 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
     navbarNav.style.display = window.innerWidth > 700 ? 'flex' : 'none'; // Изначально видно или скрыто
     popupMenu.style.display = 'none'; // Начально скрыто
 
-    // Функция для переключения меню
+    // Функция для переключения всплывающего меню
     window.toggleMenu = function() {
         if (popupMenu.style.display === 'block') {
             popupMenu.style.display = 'none'; // Скрываем всплывающее меню
-            navbarNav.style.display = 'flex'; // Показываем меню в заголовке
         } else {
             popupMenu.style.display = 'block'; // Показываем всплывающее меню
-            navbarNav.style.display = 'none'; // Скрываем меню в заголовке
         }
     };
 
