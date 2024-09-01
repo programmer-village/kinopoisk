@@ -1,0 +1,2 @@
+# kinopoisk
+kinopoisk, Django.
